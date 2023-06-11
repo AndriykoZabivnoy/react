@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Profile = ({ username, tag, location, avatar, stats }) => {
+const Profile = ({ username, tag, location, avatar, stats }np) => {
   return (
     <div className="profile">
       <div className="description">
