@@ -1,0 +1,150 @@
+/* ШРИФТИ */
+
+@import url("https://fonts.googleapis.com/css2?family=Ramabhadra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap");
+
+/* --------БАМЦ ОБНУЛЕНЯ---------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+ul[class],
+ol[class] {
+  list-style: none;
+}
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+article > * + * {
+  margin-top: 1em;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ----------КОДИНГ-------*/
+body {
+  background: #e8e6ea;
+}
+.profile {
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 390px;
+  top: 120px;
+  background: #ffffff;
+  border-radius: 15px;
+}
+.avatar {
+  margin-left: auto;
+  margin-right: auto;
+  clip-path: circle(40%);
+  height: 250px;
+  width: 190px;
+}
+.name {
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Geologica", sans-serif;
+  line-height: 13px;
+  color: #181818;
+  margin-bottom: 10px;
+}
+.tag {
+  text-align: center;
+  font-family: "Katibeh", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  color: #6b7280;
+}
+.location {
+  text-align: center;
+  font-family: "Katibeh", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #6b7280;
+  margin-bottom: 20px;
+}
+.stats {
+  background-color: #d1d1d1;
+  display: flex;
+  flex-direction: row;
+  border-radius: 0px 0px 15px 15px;
+}
+.stats li {
+  width: 150px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.stats li:first-child {
+  border-width: 2px 2px 0px 0px;
+  border-style: solid;
+  border-color: #000000;
+}
+.stats li:nth-child(2) {
+  border-top: 2px solid #000000;
+}
+.stats li:last-child {
+  border-width: 2px 0px 0px 2px;
+  border-style: solid;
+  border-color: #000000;
+}
+.label {
+  font-family: "Katibeh", cursive;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  color: #616161;
+}
+.quantity {
+  font-family: "Ramabhadra", sans-serif;
+}
